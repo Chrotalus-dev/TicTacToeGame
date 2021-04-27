@@ -1,20 +1,24 @@
 * {
     box-sizing: border-box;
 }
-body{
+/* body{
     height: 100vh;
     display:flex;
-   
-}
+   align-content: center;
+   justify-content: center;
+} */
 .TicTacToeBoard{
    display:flex;
    flex-wrap:wrap;
    width: 800px;
+
  }
  .cell {
+    display:flex;
     background-color: #c77523;
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     justify-content: center;
- 
-  }
+    align-items: center;
+   
+ }
