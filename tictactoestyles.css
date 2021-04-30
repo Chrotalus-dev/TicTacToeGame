@@ -1,12 +1,17 @@
 * {
     box-sizing: border-box;
 }
-/* body{
+header{
+   display:flex;
+   align-content: center;
+   justify-content: center;
+}
+body{
     height: 100vh;
     display:flex;
    align-content: center;
    justify-content: center;
-} */
+}
 .TicTacToeBoard{
    display:flex;
    flex-wrap:wrap;
