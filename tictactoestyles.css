@@ -7,10 +7,13 @@ header{
    justify-content: center;
 }
 body{
-    height: 100vh;
+    
     display:flex;
    align-content: center;
    justify-content: center;
+}
+.h1{
+      justify-content: center;
 }
 .TicTacToeBoard{
    display:flex;
@@ -25,5 +28,22 @@ body{
     height: 200px;
     justify-content: center;
     align-items: center;
-   
+    border-right: black;
+    border-style: outset;
+    font-size: 180px;
+    font-family: fantasy;
+    padding-top: 50px;
  }
+.buttonStyle
+{
+    margin-top: 20px;
+    height: 50px;
+    width: 200px;
+    margin-left: 200px;
+    font-size: larger;
+    border-radius: 10px;
+
+}
+ 
+       
+ 

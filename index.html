@@ -8,10 +8,12 @@
     <link rel="stylesheet" href="tictactoestyles.css">
     <script src="tictactoevents.js"></script>
     <title>Tic Tac Toe</title>
-    <h1>Tic Tac Toe</h1>
+    
     </head>
 <body>
-    <div class= "TicTacToeBoard">
+    <div>
+    <div><h1>Tic Tac Toe</h1></div>
+    <div class= "TicTacToeBoard" id="TicTacToeBoard">
         <div class="row">
             <div class="cell" id="row1Column1" onclick="onClickRow1Column1()"></div>
             <div class="cell" id="row2Column1" onclick="onClickRow2Column1()"></div>
@@ -27,7 +29,23 @@
             <div class="cell" id="row2Column3"onclick="onClickRow2Column3()"></div>
             <div class="cell" id="row3Column3"onclick="onClickRow3Column3()"></div>
         </div>
+        
+   </div> 
+   <button class="buttonStyle" id="startNewGame" onclick="clearBoard()">Start New Game</button>
+
     </div>
-    <label id="winner">Winner</label>
+<div>
+        <div><h3>Score Player One (X)</h3></div>  
+        <div><label id="playerX"></label></div>  
+        <br>  
+        <div><h3>Score Player Two (O)</h3></div>  
+        <div><label id="playerO"></label></div>  
+        <br>  
+        <div><h3>Set Winner<h3></div>   
+        <div><label id="winner"></label></div>
+        <br>
+      
+</div>
+    
 </body>
 </html>
