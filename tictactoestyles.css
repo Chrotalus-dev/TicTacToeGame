@@ -1,28 +1,35 @@
 * {
     box-sizing: border-box;
 }
-header{
-   display:flex;
-   align-content: center;
-   justify-content: center;
-}
-body{
-    
-    display:flex;
-   align-content: center;
-   justify-content: center;
-}
-.h1{
-      justify-content: center;
-}
-.TicTacToeBoard{
-   display:flex;
-   flex-wrap:wrap;
-   width: 800px;
 
- }
- .cell {
-    display:flex;
+header {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+body {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+h1 {
+    justify-content: center;
+    margin-left: 150px;
+    font-family: fantasy;
+    font-size: 60px;
+    font-weight: 800px;
+}
+
+.TicTacToeBoard {
+    display: flex;
+    flex-wrap: wrap;
+    width: 800px;
+}
+
+.cell {
+    display: flex;
     background-color: #c77523;
     width: 200px;
     height: 200px;
@@ -33,17 +40,35 @@ body{
     font-size: 180px;
     font-family: fantasy;
     padding-top: 50px;
- }
-.buttonStyle
-{
+    user-select: none;
+}
+
+.buttonStyle {
     margin-top: 20px;
     height: 50px;
     width: 200px;
     margin-left: 200px;
     font-size: larger;
     border-radius: 10px;
-
+    font-family: fantasy;
+    font-size: 25px;
 }
- 
-       
- 
+
+.scoreLabel {
+    font-family: fantasy;
+    font-size: 20px;
+}
+
+.h2 {
+    font-weight: 400px;
+}
+
+.score {
+    border-style: ridge;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+    font-size: 50px;
+}

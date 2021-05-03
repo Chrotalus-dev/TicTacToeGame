@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-    
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,44 +8,52 @@
     <link rel="stylesheet" href="tictactoestyles.css">
     <script src="tictactoevents.js"></script>
     <title>Tic Tac Toe</title>
-    
-    </head>
+
+</head>
+
 <body>
     <div>
-    <div><h1>Tic Tac Toe</h1></div>
-    <div class= "TicTacToeBoard" id="TicTacToeBoard">
-        <div class="row">
-            <div class="cell" id="row1Column1" onclick="onClickRow1Column1()"></div>
-            <div class="cell" id="row2Column1" onclick="onClickRow2Column1()"></div>
-            <div class="cell" id="row3Column1"onclick="onClickRow3Column1()"></div>
+        <h1>Tic Tac Toe</h1>
+        <div class="TicTacToeBoard" id="TicTacToeBoard">
+            <div class="row">
+                <div class="cell" id="row1Column1" onclick="onClickRow1Column1()"></div>
+                <div class="cell" id="row2Column1" onclick="onClickRow2Column1()"></div>
+                <div class="cell" id="row3Column1" onclick="onClickRow3Column1()"></div>
+            </div>
+            <div class="row">
+                <div class="cell" id="row1Column2" onclick="onClickRow1Column2()"></div>
+                <div class="cell" id="row2Column2" onclick="onClickRow2Column2()"></div>
+                <div class="cell" id="row3Column2" onclick="onClickRow3Column2()"></div>
+            </div>
+            <div class="row">
+                <div class="cell" id="row1Column3" onclick="onClickRow1Column3()"></div>
+                <div class="cell" id="row2Column3" onclick="onClickRow2Column3()"></div>
+                <div class="cell" id="row3Column3" onclick="onClickRow3Column3()"></div>
+            </div>
+
         </div>
-        <div class="row">
-            <div class="cell" id="row1Column2" onclick="onClickRow1Column2()"></div>
-            <div class="cell" id="row2Column2"onclick="onClickRow2Column2()"></div>
-            <div class="cell" id="row3Column2"onclick="onClickRow3Column2()"></div>
-        </div>
-        <div class="row">
-            <div class="cell" id="row1Column3" onclick="onClickRow1Column3()"></div>
-            <div class="cell" id="row2Column3"onclick="onClickRow2Column3()"></div>
-            <div class="cell" id="row3Column3"onclick="onClickRow3Column3()"></div>
-        </div>
-        
-   </div> 
-   <button class="buttonStyle" id="startNewGame" onclick="clearBoard()">Start New Game</button>
+        <button class="buttonStyle" id="startNewGame" onclick="clearBoard()">Start New Game</button>
 
     </div>
-<div>
-        <div><h3>Score Player One (X)</h3></div>  
-        <div><label id="playerX"></label></div>  
-        <br>  
-        <div><h3>Score Player Two (O)</h3></div>  
-        <div><label id="playerO"></label></div>  
-        <br>  
-        <div><h3>Set Winner<h3></div>   
-        <div><label id="winner"></label></div>
+    <div style="margin-top: 100px;" id="scoreBoard" class="scoreLabel">
+        <h2>Score Player One (X):</h2>
+        <div><input id="playerX" value="0" class="score" disabled></input>
+        </div>
         <br>
-      
-</div>
-    
+        <h2>Score Player Two (O):</h2>
+        <div><input id="playerO" value="0" class="score" disabled></input>
+        </div>
+        <br>
+        <div class="scoreLabel">
+            <h2>Winner:</h2>
+        </div>
+        <div>
+            <h4 id="winner"></h4>
+        </div>
+        <br>
+    </div>
+
+
 </body>
+
 </html>
