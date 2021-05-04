@@ -37,7 +37,7 @@ h1 {
     align-items: center;
     border-right: black;
     border-style: outset;
-    font-size: 180px;
+    font-size: 20.20vh;
     font-family: papyrus;
     padding-top: 50px;
     user-select: none;
@@ -48,10 +48,9 @@ h1 {
     height: 50px;
     width: 200px;
     margin-left: 200px;
-    font-size: larger;
     border-radius: 10px;
     font-family: papyrus;
-    font-size: 25px;
+    font-size: 2vh;
 }
 
 .scoreLabel {
