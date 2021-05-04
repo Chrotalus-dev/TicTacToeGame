@@ -17,7 +17,7 @@ body {
 h1 {
     justify-content: center;
     margin-left: 150px;
-    font-family: fantasy;
+    font-family: papyrus;
     font-size: 60px;
     font-weight: 800px;
 }
@@ -38,7 +38,7 @@ h1 {
     border-right: black;
     border-style: outset;
     font-size: 180px;
-    font-family: fantasy;
+    font-family: papyrus;
     padding-top: 50px;
     user-select: none;
 }
@@ -50,12 +50,12 @@ h1 {
     margin-left: 200px;
     font-size: larger;
     border-radius: 10px;
-    font-family: fantasy;
+    font-family: papyrus;
     font-size: 25px;
 }
 
 .scoreLabel {
-    font-family: fantasy;
+    font-family: papyrus;
     font-size: 20px;
 }
 
